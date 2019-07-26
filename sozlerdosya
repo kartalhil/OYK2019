@@ -1,0 +1,12 @@
+<h1>mergjk</h1>
+
+<table border="1" callpadding ="5";
+
+
+<?php
+$dosya = "sozler.txt";
+
+$dosya_iceriği = file_get_contents($dosya);
+echo $dosya_iceriği;
+
+?>
